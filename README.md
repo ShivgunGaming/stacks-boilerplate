@@ -1,4 +1,4 @@
-## ` Fruits? Dapp | Boilerplate / Dapp for Stacks Blockchain! `
+## ` Fruits? Dapp / Boilerplate for Stacks Blockchain! `
 
 Fruits? is a full stack Dapp that allows you to vote for your favorite fruit, apple 🍏 or orange 🍊.
 
