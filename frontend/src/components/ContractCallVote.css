@@ -1,0 +1,82 @@
+.total-Votes{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+/* CSS for the winning fruit text */
+.winning-Fruit{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+/* CSS for the reset button */
+button.reset-Button{
+  background-color: rgba(148, 48, 148, 0.2);
+  border: 2px solid rgb(255, 1, 148);
+  border-radius: 14px;
+  padding: 8px 12px;
+  margin: 4px;
+  box-shadow: 0px 2px 4px rgba(255, 1, 148); /* Add shadow effect */
+}
+
+/* Styling for the glowing animation of the logo */
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgb(255, 1, 148);
+  }
+  50% {
+    box-shadow: 0 0 20px rgb(255, 1, 148);
+  }
+  100% {
+    box-shadow: 0 0 5px rgb(255, 1, 148);
+  }
+}
+
+/* Hover effect for the reset button */
+button.reset-Button:hover{
+  filter: brightness(2.4);
+  animation: glowing 0.5s ease-in-out infinite;
+}
+
+/* CSS for the vote count text */
+button.reset-Button{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+  
+.vote-count {
+  font-size: 1em;
+  font-weight: bold;
+  position: relative;
+}
+
+/* CSS for the vote count before the animation */
+.vote-count:before {
+  content: attr(data-votes);
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  transition: all 1s ease-out;
+}
+
+/* CSS for the vote count during the animation */
+.vote-count:after {
+  content: attr(data-votes);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+/* CSS for the upvote animation before */
+.vote-count.upvote:before {
+  top: -50px;
+  opacity: 0;
+}
+
+/* CSS for the upvote animation after */
+.vote-count.upvote:after {
+  top: 50px;
+  opacity: 1;
+}
