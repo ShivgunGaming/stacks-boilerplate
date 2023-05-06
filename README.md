@@ -34,7 +34,7 @@ Run the following command on your local environment to initialize and start the 
 
 ```
 
-git clone "link will be placed here"
+git clone https://github.com/ShivgunGaming/stacks-boilerplate.git
 
 cd frontend
 
