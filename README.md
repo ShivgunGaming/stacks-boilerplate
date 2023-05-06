@@ -2,39 +2,25 @@
 
 Fruits? is a full stack Dapp that allows you to vote for your favorite fruit, apple 🍏 or orange 🍊.
 
-## Repositories and other tools:
-
-- [Learn about web apps on Stacks]("https://docs.hiro.so/build-apps/overview")
-
-- [Visit the official Stacks.js repo]("https://github.com/hirosystems/stacks.js")
-
-- [Learn Clarity]("https://learn.stacks.org/course/clarity-camp?register=true")
-
-- [Learn React]("https://reactjs.org")
-
-- [Learn Vite]("https://vitejs.dev/guide/")
-
-- [Buy Bitcoin]("https://coinmarketcap.com/currencies/bitcoin/")
-
 ## Pre-Requisite:
 
 There are no pre-requisites, just clone the github repo, install the dependencies and run the Dapp on local.
 
 ## Technologies used:
 
-🌟 [HTML] as the skeleton
+🌟 HTML as the skeleton
 
-🌟 [CSS] as the styles
+🌟 CSS as the styles
 
-🌟 [React] as the framework
+🌟 React as the framework
 
-🌟 [Stacks.js] as the library
+🌟 Stacks.js as the library
 
-🌟 [Vite] as the primary build tool
+🌟 Vite as the primary build tool
 
-🌟 [Clarity] as the primary smart contract language
+🌟 Clarity as the primary smart contract language
 
-🌟 [NPM] as the package manager
+🌟 NPM as the package manager
 
 ## How to get started?
 
@@ -70,9 +56,9 @@ Open Local: in the browser.
 
 You don't have to do anything with the Backend as the smart contract is deployed on chain.
 
-- [example-fruit-vote-contract]
-- (https://explorer.hiro.so/txid/ST39MJ145BR6S8C315AG2BD61SJ16E208P1FDK3AK.example-fruit-vote-contract?chain=testnet)
+- example-fruit-vote-contract
+- https://explorer.hiro.so/txid/ST39MJ145BR6S8C315AG2BD61SJ16E208P1FDK3AK.example-fruit-vote-contract?chain=testnet
 
 You can look and interact with the source code of the smart contract as you please.
 
-`Happy Hacking 😃`
+Happy Hacking 😃
