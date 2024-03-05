@@ -61,4 +61,4 @@ You don't have to do anything with the Backend as the smart contract is deployed
 
 You can look and interact with the source code of the smart contract as you please.
 
-Happy Hacking 😃
+Happy Cooking 😃
