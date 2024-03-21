@@ -1,8 +1,9 @@
-import "./App.css";
+import React from 'react';
 import Logo from "./assets/logofive.png";
-import ConnectWallet from "./components/ConnectWallet";
-import ContractCallVote from "./components/ContractCallVote";
-import Footer from "./components/Footer";
+import ConnectWallet from './components/ConnectWallet';
+import ContractCallVote from './components/ContractCallVote';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
 
         {/* Render description of the app */}
         <p className="Vote-text">
-          Which fruit is better, Apple 🍏 or Orange 🍊! They are both fan
+          Which fruit is better,  Apple 🍏 or Orange 🍊! They are both fan
           favorites but only one will prevail 👑!
         </p>
 
@@ -42,4 +43,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; // Keep only one default export
