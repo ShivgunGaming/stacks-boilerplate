@@ -14,7 +14,8 @@
     "@stacks/network": "^6.1.0",
     "@stacks/transactions": "^6.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "prop-types": "^15.7.2" // Add prop-types as a dependency
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
@@ -22,5 +23,12 @@
     "@vitejs/plugin-react": "^2.1.0",
     "regenerator-runtime": "^0.13.9",
     "vite": "^3.1.0"
+  },
+  "vite": {
+    "build": {
+      "rollupOptions": {
+        "external": ["prop-types"]
+      }
+    }
   }
 }
