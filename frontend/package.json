@@ -15,7 +15,7 @@
     "@stacks/transactions": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "prop-types": "^15.7.2" // Add prop-types as a dependency
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
