@@ -20,7 +20,7 @@ function App() {
 
         {/* Render description of the app */}
         <p className="Vote-text">
-          Which fruit is better,  Apple 🍏 or Orange 🍊! They are both fan
+          Which fruit is better?<br />Apple 🍏 or Orange 🍊! <br /> They are both fan
           favorites but only one will prevail 👑!
         </p>
 
